@@ -30,7 +30,7 @@
 
                 <main>
                     <!-- Mostrar el nombre del entrenador con un enlace a su página de Wikipedia -->
-                    <h1><a href="{//equipo[entrenador/nombre='Julio Velasco']/entrenador/url}"><xsl:value-of select="$nombre_entrenador"/></a></h1>
+                    <h1><a href="{//equipo[entrenador/nombre='Julio Velasc']/entrenador/url}"><xsl:value-of select="$nombre_entrenador"/></a></h1>
                     <article class="equipos">
                         <!-- Mostrar el nombre del equipo -->
                         <h4><xsl:value-of select="$nombre_entrenador"/></h4>                        
