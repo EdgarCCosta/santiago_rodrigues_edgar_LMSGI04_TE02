@@ -33,7 +33,7 @@
                     <h1><a href="{//equipo[entrenador/nombre='Julio Velasco']/entrenador/url}"><xsl:value-of select="$nombre_entrenador"/></a></h1>
                     <article class="equipos">
                         <!-- Mostrar el nombre del equipo -->
-                        <h4><xsl:value-of select="$nombre_entrenador"/></h4>
+                        <h4><xsl:value-of select="//equipo[entrenador/nombre='Julio Velasco']/nombre"/></h4> 
                         <!-- Aplicar plantilla para mostrar jugadores titulares -->
                         <xsl:apply-templates select="//equipo[entrenador/nombre='Julio Velasco']/jugadores/jugador[@titular='si']"/>
                     </article>
