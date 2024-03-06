@@ -11,7 +11,7 @@
     <xsl:output encoding="utf-8" method="html" doctype-system="about:legacy-doctype"/>
 
     <!-- Variable para almacenar el nombre del entrenador -->
-    <xsl:variable name="nombre_entrenador" select="//equipo[entrenador/nombre='Julio Velasco']/entrenador/nombre"/>
+    <xsl:variable name="nombre_entrenador" select="//equipo[entrenador/nombre='Julio Velasc']/entrenador/nombre"/>
 
     <!-- Plantilla principal -->
     <xsl:template match="/">
