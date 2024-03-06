@@ -11,7 +11,7 @@
     <xsl:output encoding="utf-8" method="html" doctype-system="about:legacy-doctype"/>
 
     <!-- Variable para almacenar el nombre del entrenador -->
-    <xsl:variable name="nombre_entrenador" select="//equipo[entrenador/nombre='Julio Velasc']/entrenador/nombre"/>
+    <xsl:variable name="nombre_entrenador" select="//equipo[entrenador/nombre='Julio Velasco']/entrenador/nombre"/>
 
     <!-- Plantilla principal -->
     <xsl:template match="/">
@@ -30,10 +30,10 @@
 
                 <main>
                     <!-- Mostrar el nombre del entrenador con un enlace a su página de Wikipedia -->
-                    <h1><a href="{//equipo[entrenador/nombre='Julio Velasc']/entrenador/url}"><xsl:value-of select="$nombre_entrenador"/></a></h1>
+                    <h1><a href="{//equipo[entrenador/nombre='Julio Velasco']/entrenador/url}"><xsl:value-of select="$nombre_entrenador"/></a></h1>
                     <article class="equipos">
                         <!-- Mostrar el nombre del equipo -->
-                        <h4><xsl:value-of select="$nombre_entrenador"/></h4>                        
+                        <h4><xsl:value-of select="$nombre_entrenador"/></h4>
                         <!-- Aplicar plantilla para mostrar jugadores titulares -->
                         <xsl:apply-templates select="//equipo[entrenador/nombre='Julio Velasco']/jugadores/jugador[@titular='si']"/>
                     </article>
