@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Módulo:     LMSGI
+     UD:         04
+     Fecha:      05/03/2024
+     Autor:      Edgar Rodrigues
+     Tarea       Tarea Evaluativa 02
+-->
+
+<?xml-stylesheet type="text/xsl" href="partidos.xsl"?>
+<club_voleibol>
+    <!-- Información del primer partido -->
+    <partido>
+        <lugar ciudad="Lima">Estadio Nacional</lugar>
+        <fecha>2023-08-01</fecha>
+        <equipos>
+            <local puntuacion="25">Equipo A</local>
+            <visitante puntuacion="20">Equipo B</visitante>
+        </equipos>
+        <!-- Detalles del árbitro -->
+        <arbitro categoria="internacional">
+            <nombre>Juan Pérez</nombre>
+            <nacionalidad>Argentina</nacionalidad>
+        </arbitro>
+    </partido>
+    <!-- Información del segundo partido -->
+    <partido>
+        <lugar ciudad="Lima">Estadio Central</lugar>
+        <fecha>2023-04-01</fecha>
+        <equipos>
+            <local puntuacion="20">Equipo B</local>
+            <visitante puntuacion="25">Equipo A</visitante>
+        </equipos>
+        <!-- Detalles del árbitro -->
+        <arbitro categoria="internacional">
+            <nombre>Juan Pérez</nombre>
+            <nacionalidad>Argentina</nacionalidad>
+        </arbitro>
+    </partido>
+</club_voleibol>
